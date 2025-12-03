@@ -267,11 +267,31 @@ Touch target sizes should remain consistent (48px minimum) regardless of screen 
 
 ## Accessibility Checklist
 
-- [ ] All text 24pt+ body, 36pt+ headings
-- [ ] Contrast ratio 7:1 verified
-- [ ] Touch targets 48x48px minimum
-- [ ] Color not sole indicator (icons + labels)
-- [ ] Readable from 2 meters
-- [ ] Screen mountable at wheelchair height
-- [ ] No flashing/blinking elements
+- [x] All text 24pt+ body, 36pt+ headings
+- [x] Contrast ratio 7:1 verified
+- [x] Touch targets 48x48px minimum
+- [x] Color not sole indicator (icons + labels)
+- [x] Readable from 2 meters
+- [ ] Screen mountable at wheelchair height (hardware dependent)
+- [x] No flashing/blinking elements
 - [ ] Clear focus indicators if keyboard nav supported
+
+---
+
+## Implementation Status
+
+All screens have been implemented in React:
+
+| Screen | Status | File |
+|--------|--------|------|
+| Home | ✅ Implemented | `HomeScreen.jsx` |
+| Events List | ✅ Implemented | `EventsListScreen.jsx` |
+| Event Detail | ✅ Implemented | `EventDetailScreen.jsx` |
+| Bus Schedule | ✅ Implemented | `BusScheduleScreen.jsx` |
+| Weather | ✅ Implemented | `WeatherScreen.jsx` |
+| News | ✅ Implemented | `NewsScreen.jsx` |
+| Tourism | ✅ Implemented | `TourismScreen.jsx` |
+| Contacts | ✅ Implemented | `ContactsScreen.jsx` |
+
+**Location:** Gunnarsbyn, Boden municipality
+**Season:** Winter (December) mock data
